@@ -30,6 +30,7 @@ export const App = () => {
       {getDBNavbar()}
       <div className="App">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/json" element={<JSON />} />
           <Route path="/promises" element={<Promises />} />

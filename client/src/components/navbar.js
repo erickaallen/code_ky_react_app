@@ -13,13 +13,13 @@ export const AppNavbar = () => {
     <Navbar.Toggle/>
     <Navbar.Collapse>
       <Nav>
-          <Nav.Link href="/json">
+          <Nav.Link className="json-nav-link" href="/json">
             JSON
           </Nav.Link>
-          <Nav.Link href="/promises">
+          <Nav.Link className="promises-nav-link" href="/promises">
             Promises
           </Nav.Link>
-          <Nav.Link href="/database">
+          <Nav.Link className="db-nav-link" href="/database">
             Database
           </Nav.Link>
       </Nav>
@@ -41,10 +41,10 @@ export const DBNavbar = () => {
       <Navbar.Toggle/>
       <Navbar.Collapse>
         <Nav>
-            <Nav.Link href="/record">
+            <Nav.Link className="db-nav-link" href="/record">
               List
             </Nav.Link>
-            <Nav.Link href="/create">
+            <Nav.Link className="db-nav-link" href="/create">
               Create
             </Nav.Link>
         </Nav>

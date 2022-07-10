@@ -101,8 +101,9 @@ const onSubmit = async (e) => {
        <div className="form-group">
          <input
            type="submit"
-           value="Create person"
+           value="Create Person"
            className="btn btn-primary"
+          //  id="create-person-button"
          />
        </div>
      </form>

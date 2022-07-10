@@ -1,3 +1,11 @@
+a {
+  color: green;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
 .App {
   margin-left: 40px;
   margin-right: 40px;
@@ -5,16 +13,78 @@
   padding-bottom: 40px;
 }
 
+/* Database Operations */
+.btn.btn-primary {
+  background-color: darkgreen;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-link {
+  color: green;
+}
+
+.btn-link:hover {
+  color: darkgreen;
+}
+
+.form-check-input:checked {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.form-group {
+  margin-top: 40px;
+}
+
+.json-list {
+  color: chocolate;
+  width: 60%;
+}
+
+/* Navbars */
+.collapse {
+  justify-content: end;
+}
+
+.home-link {
+  width: '100%';
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.navbar {
+  padding: 20px;
+  width: '100%';
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .json-nav-link.nav-link:hover {
+  color: orange;
+}
+
+.navbar-dark .navbar-nav .promises-nav-link.nav-link:hover {
+  color: orchid;
+}
+
+.navbar-dark .navbar-nav .db-nav-link.nav-link:hover {
+  color: forestgreen;
+}
+
+.navbar-light .navbar-nav .db-nav-link.nav-link:hover {
+  color: forestgreen;
+}
+
+.sub-navbar {
+  padding: 20px;
+  width: '100%';
+}
+
 /* Promises */
 .error-message {
   color: red;
   font-style: italic;
-  margin: 5px;
-}
-
-.meme-image {
-  height: 150px;
-  width: 150px;
   margin: 5px;
 }
 
@@ -35,24 +105,8 @@
   margin-top: 20px;
 }
 
-/* Navbars */
-.collapse {
-  justify-content: end;
-}
-
-.home-link {
-  width: '100%';
-  color: white;
-  font-size: 2rem;
-  text-align: left;
-}
-
-.navbar {
-  padding: 20px;
-  width: '100%';
-}
-
-.sub-navbar {
-  padding: 20px;
-  width: '100%';
+.meme-image {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
 }
