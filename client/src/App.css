@@ -1,0 +1,58 @@
+.App {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Promises */
+.error-message {
+  color: red;
+  font-style: italic;
+  margin: 5px;
+}
+
+.meme-image {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+}
+
+.memes-button {
+  background-color:darkorchid;
+  opacity: .9;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  height: 40px;
+  width: 150px;
+  border: none;
+  margin-left: 20px;
+}
+
+.memes-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Navbars */
+.collapse {
+  justify-content: end;
+}
+
+.home-link {
+  width: '100%';
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.navbar {
+  padding: 20px;
+  width: '100%';
+}
+
+.sub-navbar {
+  padding: 20px;
+  width: '100%';
+}

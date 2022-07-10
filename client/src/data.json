@@ -1,0 +1,9 @@
+{
+  "data": {
+    "ping": "pong",
+    "test": 1234,
+    "color": "purple",
+    "food": "cheeseburger",
+    "season": "summer"
+  }
+}
