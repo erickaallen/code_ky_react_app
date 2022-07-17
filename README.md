@@ -26,10 +26,10 @@ If you plan to set up a database for your project and want to refer to the same 
 
 From the example-react-app/, cd into client/ directory
 
-Then enter `npm start`
+First, enter `npm install`. After all packages are installed, enter `npm start`
 
 ### Server
 
 In a second terminal tab, cd into server/ directory
 
-Then enter `node server.js`
+First, enter `npm install`. After all packages are installed, enter `node server.js`
